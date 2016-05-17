@@ -1,4 +1,4 @@
 sample
 ======
 
-Updated readme file
+Updated readme file from git
