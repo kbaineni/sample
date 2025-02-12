@@ -1,0 +1,14 @@
+inputSet:
+  name: Build_kbaineni_sample_1739384453763-pr-trigger-input-set
+  identifier: Build_kbaineni_sample_1739384453763prtriggerinputset
+  orgIdentifier: default
+  projectIdentifier: default_project
+  pipeline:
+    identifier: Build_kbaineni_sample_1739384453763
+    properties:
+      ci:
+        codebase:
+          build:
+            type: PR
+            spec:
+              number: <+trigger.prNumber>
